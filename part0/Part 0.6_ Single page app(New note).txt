@@ -1,0 +1,14 @@
+title Part 0.6: Single page app(New note)
+
+note over browser:
+browser sends a POST request to the server
+end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over server:
+server responds with 201 status code
+end note
+server-->browser: HTTP status code 201
+note over server:
+server does not ask for a redirect, the browser stays on the same page, 
+and it sends no further HTTP-requests.
+end note
